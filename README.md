@@ -6,7 +6,7 @@ The Creative Project
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=gawainb&label=Our%20%E2%9D%A4%20Count&color=e50068&style=flat" alt="g2entgroup" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=g2entgroup" alt="g2entgroup" /></a> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=gawainb" alt="g2entgroup" /></a> </p>
 
 <p align="left"> <a href="https://twitter.com/g2entgroup" target="blank"><img src="https://img.shields.io/twitter/follow/g2entgroup?logo=twitter&style=for-the-badge" alt="g2entgroup" /></a> </p>
 

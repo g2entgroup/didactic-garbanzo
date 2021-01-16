@@ -14,7 +14,7 @@
 
 - 📫 How to reach us **info@g2entgroup.com**
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">Connect with us:</h3>
 <p align="left">
 <a href="https://twitter.com/g2entgroup" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="g2entgroup" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/g2entgroup" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="g2entgroup" height="30" width="40" /></a>

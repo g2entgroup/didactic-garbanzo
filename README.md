@@ -1,5 +1,5 @@
 # didactic-garbanzo
-<h1>The Creative Project</h1>
+<h2>The Creative Project</h2>
 <div align=center><img src="https://media.giphy.com/media/kww6RMWnHThpsIfTTW/giphy.gif"></div> 
 <div><h1 align="center">Hi, We're The Creative Team <img src="https://raw.githubusercontent.com/SudhanPlayz/SudhanPlayz/master/images/WaveIcon.gif" width="30px"></h1></div>
 <h3 align="center">Passionate developers with various levels of experience and expertise, but we ALL ❤ Blockchain Technology!!</h3>

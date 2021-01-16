@@ -1,5 +1,5 @@
-<div align=center><img src="https://media.giphy.com/media/kww6RMWnHThpsIfTTW/giphy.gif"></div>
-# didactic-garbanzo 
+# didactic-garbanzo
+<div align=center><img src="https://media.giphy.com/media/kww6RMWnHThpsIfTTW/giphy.gif"></div> 
 The Creative Project
 <div><h1 align="center">Hi, we're The Creative Team</h1> <img src="https://raw.githubusercontent.com/SudhanPlayz/SudhanPlayz/master/images/WaveIcon.gif" width="30px"></div>
 <h3 align="center">Passionate developers with various levels of experience and expertise, but we ALL ❤ Blockchain Technology!!</h3>
@@ -28,6 +28,6 @@ The Creative Project
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=g2entgroup&show_icons=true&theme=synthwave&title_color=ffffff&text_color=2661a7&bg_color=e50068&hide_border=true&locale=en" alt="g2entgroup" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=g2entgroup&" alt="g2entgroup" /></p>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=gawainb&" alt="g2entgroup" /></p>
 
 

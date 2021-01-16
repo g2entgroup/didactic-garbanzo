@@ -1,7 +1,7 @@
 # didactic-garbanzo
 <div align=center><img src="https://media.giphy.com/media/kww6RMWnHThpsIfTTW/giphy.gif"></div> 
 The Creative Project
-<div><h1 align="center">Hi, we're The Creative Team</h1> <img src="https://raw.githubusercontent.com/SudhanPlayz/SudhanPlayz/master/images/WaveIcon.gif" width="30px"></div>
+<div><h1 align="center">Hi, We're The Creative Team <img src="https://raw.githubusercontent.com/SudhanPlayz/SudhanPlayz/master/images/WaveIcon.gif" width="30px"></h1></div>
 <h3 align="center">Passionate developers with various levels of experience and expertise, but we ALL ❤ Blockchain Technology!!</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=g2entgroup&label=Our%20%E2%9D%A4%20Count&color=e50068&style=flat" alt="g2entgroup" /> </p>

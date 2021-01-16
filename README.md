@@ -1,5 +1,5 @@
 # didactic-garbanzo
-<h2>The Creative Project</h2>
+<h3>The Creative Project</h3>
 <div align=center><img src="https://media.giphy.com/media/kww6RMWnHThpsIfTTW/giphy.gif"></div> 
 <div><h1 align="center">Hi, We're The Creative Team <img src="https://raw.githubusercontent.com/SudhanPlayz/SudhanPlayz/master/images/WaveIcon.gif" width="30px"></h1></div>
 <h3 align="center">Passionate developers with various levels of experience and expertise, but we ALL ❤ Blockchain Technology!!</h3>
@@ -10,9 +10,9 @@
 
 <p align="left"> <a href="https://twitter.com/g2entgroup" target="blank"><img src="https://img.shields.io/twitter/follow/g2entgroup?logo=twitter&style=for-the-badge" alt="g2entgroup" /></a> </p>
 
-- 🔭 I’m currently working on [The Creative Token](#)
+- 🔭 We’re currently working on [The Creative Token](#)
 
-- 📫 How to reach me **sirgawain@g2entgroup.com**
+- 📫 How to reach us **info@g2entgroup.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">

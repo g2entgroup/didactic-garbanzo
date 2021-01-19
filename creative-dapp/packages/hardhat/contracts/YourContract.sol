@@ -7,7 +7,7 @@ contract YourContract {
 
   event SetPurpose(address sender, string purpose);
 
-  string public purpose = "🛠 Programming Unstoppable Money";
+  string public purpose = "🛠 Programming Creative Tokens";
 
   constructor() public {
     // what should we do on deploy?

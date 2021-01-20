@@ -164,6 +164,27 @@ function App(props) {
               address={address}
               blockExplorer={blockExplorer}
             />
+            <Contract
+              name="CreativeContract2"
+              signer={userProvider.getSigner()}
+              provider={localProvider}
+              address={address}
+              blockExplorer={blockExplorer}
+            />
+            <Contract
+              name="CreativeContract3"
+              signer={userProvider.getSigner()}
+              provider={localProvider}
+              address={address}
+              blockExplorer={blockExplorer}
+            />
+            <Contract
+              name="CreativeContract4"
+              signer={userProvider.getSigner()}
+              provider={localProvider}
+              address={address}
+              blockExplorer={blockExplorer}
+            />
 
             { /* Uncomment to display and interact with an external contract (DAI on mainnet):
             <Contract

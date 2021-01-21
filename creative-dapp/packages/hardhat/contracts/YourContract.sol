@@ -7,6 +7,7 @@ contract YourContract is ERC20 {
 
   constructor () ERC20("CreativeToken","CRTV") public {
     // what should we do on deploy?
+    _mint(msg.sender, 10 ether);
   }
 
 }

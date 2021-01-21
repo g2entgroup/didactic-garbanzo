@@ -11,8 +11,8 @@ const main = async () => {
 
 
   const yourContract = await deploy("YourContract") // <-- add in constructor args like line 16 vvvv
-
-
+  const vendorContract = await deploy("VendorContract", [yourContract.address])
+  await yourContract.transfer(vendorContract.address, utils.parseEther("10"))
 
   // const exampleToken = await deploy("ExampleToken")
   // const examplePriceOracle = await deploy("ExamplePriceOracle")

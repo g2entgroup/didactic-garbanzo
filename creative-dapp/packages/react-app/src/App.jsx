@@ -158,14 +158,14 @@ function App(props) {
                 and give you a form to interact with it locally
             */}
             <Contract
-              name="YourContract"
+              name="VendorContract"
               signer={userProvider.getSigner()}
               provider={localProvider}
               address={address}
               blockExplorer={blockExplorer}
             />
             <Contract
-              name="CreativeContract2"
+              name="YourContract"
               signer={userProvider.getSigner()}
               provider={localProvider}
               address={address}

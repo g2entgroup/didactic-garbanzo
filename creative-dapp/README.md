@@ -40,7 +40,7 @@ yarn deploy
 
 ```
 
-🔏 Edit your smart contract `YourContract.sol` in `packages/hardhat/contracts`
+🔏 Edit your smart contract `CrtvTokenContract.sol` in `packages/hardhat/contracts`
 
 📝 Edit your frontend `App.jsx` in `packages/react-app/src`
 
@@ -142,7 +142,7 @@ Look for the [HardHat](https://hardhat.org) console.log() output in the `yarn ru
 
 🏗 You'll notice the `<Contract />` component that displays the dynamic form as scaffolding for interacting with your contract.
 
-🔲 Try making a `<Button/>` that calls `writeContracts.YourContract.setPurpose("👋 Hello World")` to explore how your UI might work...
+🔲 Try making a `<Button/>` that calls `writeContracts.CrtvTokenContract.setPurpose("👋 Hello World")` to explore how your UI might work...
 
 💬 Wrap the call to `writeContracts` with a `tx()` helper that uses BlockNative's [Notify.js](https://www.blocknative.com/notify).
 
@@ -446,7 +446,7 @@ yarn run deploy
 ```
 
 
-🔏 Edit or rename your smart contract `YourContract.sol` in `packages/hardhat/contracts`
+🔏 Edit or rename your smart contract `CrtvTokenContract.sol` in `packages/hardhat/contracts`
 
 📝 Edit your frontend `App.jsx` in `packages/react-app/src`
 

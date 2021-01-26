@@ -10,9 +10,9 @@ const main = async () => {
   console.log("\n\n 📡 Deploying...\n");
 
 
-  const yourContract = await deploy("YourContract") // <-- add in constructor args like line 16 vvvv
-  const vendorContract = await deploy("VendorContract", [yourContract.address])
-  await yourContract.transfer(vendorContract.address, utils.parseEther("10"))
+  const crtvTokenContract = await deploy("CrtvTokenContract") // <-- add in constructor args like line 16 vvvv
+  const vendorContract = await deploy("VendorContract", [crtvTokenContract.address])
+  await crtvTokenContract.transfer(vendorContract.address, utils.parseEther("10"))
 
   // const exampleToken = await deploy("ExampleToken")
   // const examplePriceOracle = await deploy("ExamplePriceOracle")
@@ -22,7 +22,7 @@ const main = async () => {
 
   //If you want to send some ETH to a contract on deploy (make your constructor payable!)
 
-  const yourContract = await deploy("YourContract", [], {
+  const crtvTokenContract = await deploy("CrtvTokenContract", [], {
   value: ethers.utils.parseEther("0.05")
   });
   */

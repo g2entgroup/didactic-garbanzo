@@ -27,7 +27,7 @@ export default function ExampleUI({purpose, setPurposeEvents, address, mainnetPr
           <Button onClick={()=>{
             console.log("newPurpose",newPurpose)
             /* look how you call setPurpose on your contract: */
-            tx( writeContracts.YourContract.setPurpose(newPurpose) )
+            tx( writeContracts.CrtvTokenContract.setPurpose(newPurpose) )
           }}>Set Purpose</Button>
         </div>
 
@@ -75,7 +75,7 @@ export default function ExampleUI({purpose, setPurposeEvents, address, mainnetPr
 
         Your Contract Address:
         <Address
-            value={readContracts?readContracts.YourContract.address:readContracts}
+            value={readContracts?readContracts.CrtvTokenContract.address:readContracts}
             ensProvider={mainnetProvider}
             fontSize={16}
         />
@@ -85,7 +85,7 @@ export default function ExampleUI({purpose, setPurposeEvents, address, mainnetPr
         <div style={{margin:8}}>
           <Button onClick={()=>{
             /* look how you call setPurpose on your contract: */
-            tx( writeContracts.YourContract.setPurpose("🍻 Cheers") )
+            tx( writeContracts.CrtvTokenContract.setPurpose("🍻 Cheers") )
           }}>Set Purpose to "🍻 Cheers"</Button>
         </div>
 
@@ -96,7 +96,7 @@ export default function ExampleUI({purpose, setPurposeEvents, address, mainnetPr
               here we are sending value straight to the contract's address:
             */
             tx({
-              to: writeContracts.YourContract.address,
+              to: writeContracts.CrtvTokenContract.address,
               value: parseEther("0.001")
             });
             /* this should throw an error about "no fallback nor receive function" until you add it */
@@ -106,7 +106,7 @@ export default function ExampleUI({purpose, setPurposeEvents, address, mainnetPr
         <div style={{margin:8}}>
           <Button onClick={()=>{
             /* look how we call setPurpose AND send some value along */
-            tx( writeContracts.YourContract.setPurpose("💵 Paying for this one!",{
+            tx( writeContracts.CrtvTokenContract.setPurpose("💵 Paying for this one!",{
               value: parseEther("0.001")
             }))
             /* this will fail until you make the setPurpose function payable */
@@ -118,9 +118,9 @@ export default function ExampleUI({purpose, setPurposeEvents, address, mainnetPr
           <Button onClick={()=>{
             /* you can also just craft a transaction and send it to the tx() transactor */
             tx({
-              to: writeContracts.YourContract.address,
+              to: writeContracts.CrtvTokenContract.address,
               value: parseEther("0.001"),
-              data: writeContracts.YourContract.interface.encodeFunctionData("setPurpose(string)",["🤓 Whoa so 1337!"])
+              data: writeContracts.CrtvTokenContract.interface.encodeFunctionData("setPurpose(string)",["🤓 Whoa so 1337!"])
             });
             /* this should throw an error about "no fallback nor receive function" until you add it */
           }}>Another Example</Button>
@@ -130,7 +130,7 @@ export default function ExampleUI({purpose, setPurposeEvents, address, mainnetPr
 
       {/*
         📑 Maybe display a list of events?
-          (uncomment the event and emit line in YourContract.sol! )
+          (uncomment the event and emit line in CrtvTokenContract.sol! )
       */}
       <div style={{ width:600, margin: "auto", marginTop:32, paddingBottom:32 }}>
         <h2>Events:</h2>

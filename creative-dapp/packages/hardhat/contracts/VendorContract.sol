@@ -1,3 +1,4 @@
+// "SPDX-License-Identifier: MIT"
 pragma solidity >=0.6.0 <0.7.0;
 
 import "hardhat/console.sol";
@@ -5,16 +6,27 @@ import "@openzeppelin/contracts/token/ERC20/IERC20.sol"; //https://github.com/Op
 
 contract VendorContract {
 
-  IERC20 token;
+  IERC20 crtvToken;
 
-  constructor (address tokenAddress) public {
-    token = IERC20(tokenAddress);
+  constructor (IERC20 theToken) public {
+    crtvToken = theToken;
   }
 
   function buyToken() public payable {
-    require(token.transfer(msg.sender, msg.value) );
+    require(crtvToken.transfer(msg.sender, msg.value), "TRANSFER FAILED" );
   }
 
-  //function sellToken();
+  function sellToken(uint256 amount) public {
+    require(crtvToken.transferFrom(msg.sender, address(this), amount), "TRANSFER FAILED");
+    (bool success, ) = msg.sender.call{value: amount}("");
+    (!success); 
+    
+    
+  }
+
+  receive() external payable {
+    buyToken();
+  }
 
 }
+

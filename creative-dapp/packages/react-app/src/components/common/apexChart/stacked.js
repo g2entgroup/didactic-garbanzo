@@ -77,19 +77,19 @@ class Stacked extends Component {
             },
             series: [
                 {
-                    name: 'South',
+                    name: 'Brand',
                     data: generateDayWiseTimeSeries(new Date('11 Feb 2017 GMT').getTime(), 20, {
                         min: 10,
                         max: 60
                     })
                 }, {
-                    name: 'North',
+                    name: 'NFT',
                     data: generateDayWiseTimeSeries(new Date('11 Feb 2017 GMT').getTime(), 20, {
                         min: 10,
                         max: 20
                     })
                 }, {
-                    name: 'Central',
+                    name: 'Tickets',
                     data: generateDayWiseTimeSeries(new Date('11 Feb 2017 GMT').getTime(), 20, {
                         min: 10,
                         max: 15

@@ -4,7 +4,7 @@ import Spark1 from '../common/apexChart/spark1'
 import Spark2 from '../common/apexChart/spark2';
 import Spark3 from '../common/apexChart/spark3';
 import Spark7 from '../common/apexChart/spark7';
-import Stacked from '../common/apexChart/stacked';
+import Splinechart from '../common/apexChart/splinechart';
 import BTC from '../../assets/images/coin/BTC.svg';
 import ETH from '../../assets/images/coin/ETH.svg';
 import DASH from '../../assets/images/coin/DASH.svg';
@@ -19,6 +19,7 @@ import avatar4 from '../../assets/images/xs/avatar4.jpg';
 import avatar5 from '../../assets/images/xs/avatar5.jpg';
 import avatar6 from '../../assets/images/xs/avatar6.jpg';
 import avatar7 from '../../assets/images/xs/avatar7.jpg';
+import netflix from '../../assets/images/netflix-logo.jpg';
 
 const Dashboard = () => {
     return (
@@ -265,8 +266,8 @@ const Dashboard = () => {
                                         <button className="btn btn-sm btn-outline-secondary mr-1 active" id="one_year">1Y</button>
                                         <button className="btn btn-sm btn-outline-secondary mr-1" id="ytd">YTD</button>
                                         <button className="btn btn-sm btn-outline-secondary" id="all">ALL</button>
-                                        <div id="stacked">
-                                            <Stacked />
+                                        <div id="splinechart">
+                                            <Splinechart />
                                         </div>
                                     </div>
                                 </div>
@@ -280,7 +281,7 @@ const Dashboard = () => {
                     <div className="col-md-12">
                         <div className="card">
                             <div className="header">
-                                <h2>Transaction List</h2>
+                                <h1>🌊 Pools</h1>
                             </div>
                             <ul className="nav nav-tabs3">
                                 <li className="nav-item"><a className="nav-link active show" data-toggle="tab" href="#Buy-new2">Brand Pools</a></li>
@@ -322,8 +323,8 @@ const Dashboard = () => {
                                                     <td><button type="button" className="btn btn-default btn-sm mb-0"><span>View</span></button></td>
                                                 </tr>
                                                 <tr>
-                                                    <td className="w60"><img src="../assets/images/coin/neo.svg" alt="avatar" className="w30 rounded" /></td>
-                                                    <td><p className="mb-0">NEO</p></td>
+                                                    <td className="w60"><img src={netflix} alt="avatar" className="w30 rounded" /></td>
+                                                    <td><p className="mb-0">Netflix</p></td>
                                                     <td><span>12:20PM 5 Nov 2018</span></td>
                                                     <td><span>OX874JKHJKFG76767DFD67</span></td>
                                                     <td><span className="badge badge-success">Completed</span></td>

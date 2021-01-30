@@ -1,3 +1,22 @@
+@import 'assets/vendor/bootstrap/css/bootstrap.min.css';
+@import 'assets/vendor/font-awesome/css/font-awesome.min.css';
+@import 'assets/vendor/animate-css/vivify.min.css';
+@import 'assets/vendor/c3/c3.min.css';
+@import 'assets/vendor/jvectormap/jquery-jvectormap-2.0.3.css';
+@import 'assets/vendor/bootstrap-multiselect/bootstrap-multiselect.css';
+@import 'assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.min.css';
+@import 'assets/vendor/bootstrap-colorpicker/css/bootstrap-colorpicker.css';
+@import 'assets/vendor/multi-select/css/multi-select.css';
+@import 'assets/vendor/bootstrap-tagsinput/bootstrap-tagsinput.css';
+@import 'assets/vendor/nouislider/nouislider.min.css';
+@import 'assets/vendor/nestable/jquery-nestable.css';
+@import 'assets/css/site.min.css';
+@import 'assets/css/custom.css';
+
 .App {
   text-align: center;
+}
+
+body {
+  background-color: white;
 }

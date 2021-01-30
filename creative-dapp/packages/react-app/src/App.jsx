@@ -11,6 +11,8 @@ import { useExchangePrice, useGasPrice, useUserProvider, useContractLoader, useC
 import { Header, Account, Faucet, Ramp, Contract, GasGauge } from "./components";
 import { Transactor } from "./helpers";
 import { formatEther } from "@ethersproject/units";
+import Menu2 from './components/Shared/Menu';
+import Dashboard from "./components/Dashboard/dashboard"
 //import Hints from "./Hints";
 import { Hints, ExampleUI, Subgraph } from "./views"
 /*
@@ -133,23 +135,13 @@ function App(props) {
       {/* ✏️ Edit the header and change the title to your project name */}
       <Header />
 
+     
+
       <BrowserRouter>
 
-        <Menu style={{ textAlign:"center" }} selectedKeys={[route]} mode="horizontal">
-          <Menu.Item key="/">
-            <Link onClick={()=>{setRoute("/")}} to="/">CrtvTokenContract</Link>
-          </Menu.Item>
-          <Menu.Item key="/hints">
-            <Link onClick={()=>{setRoute("/hints")}} to="/hints">Hints</Link>
-          </Menu.Item>
-          <Menu.Item key="/exampleui">
-            <Link onClick={()=>{setRoute("/exampleui")}} to="/exampleui">ExampleUI</Link>
-          </Menu.Item>
-          <Menu.Item key="/subgraph">
-            <Link onClick={()=>{setRoute("/subgraph")}} to="/subgraph">Subgraph</Link>
-          </Menu.Item>
-        </Menu>
+         <Route component={Menu2}></Route>
 
+         <div id="main-content">
         <Switch>
           <Route exact path="/">
             {/*
@@ -205,7 +197,7 @@ function App(props) {
               price={price}
             />
           </Route>
-          <Route path="/exampleui">
+          {/* <Route path="/exampleui">
             <ExampleUI
               address={address}
               userProvider={userProvider}
@@ -219,7 +211,12 @@ function App(props) {
               purpose={purpose}
               setPurposeEvents={setPurposeEvents}
             />
+          </Route> */}
+          <Route path="/dashboard">
+            <Dashboard></Dashboard>
           </Route>
+            
+
           <Route path="/subgraph">
             <Subgraph
             subgraphUri={props.subgraphUri}
@@ -229,6 +226,7 @@ function App(props) {
             />
           </Route>
         </Switch>
+        </div>
       </BrowserRouter>
 
 

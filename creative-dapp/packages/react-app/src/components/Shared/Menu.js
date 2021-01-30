@@ -8,6 +8,8 @@ import metisMenu from './metisMenu';
 import DefaultLink from './DefaultLink';
 import { Dropdown } from 'react-bootstrap';
 import { setMiniSidebarMenuOn, setMiniHover } from '../../actions/settingsAction';
+import user from '../../assets/images/user.png';
+import logo from '../../assets/images/creative-icon-header.png';
 
 
 class Menu extends Component {
@@ -73,13 +75,13 @@ class Menu extends Component {
 			<>
 				<div id="left-sidebar" className={`sidebar${this.props.miniSideMenuOn ? ' mini_sidebar_on' : ''}`}>
 					<div className="navbar-brand">
-						<Link to="/"><span>Creative Platform</span></Link>
+						<Link to="/"><img src={logo} /><span className="text-primary">Creative Platform</span></Link>
 						<button type="button" className="btn-toggle-offcanvas btn btn-sm float-right" onClick={() => this.props.setOffcanvas(!this.props.offcanvas)}><i className="lnr lnr-menu icon-close"></i></button>
 					</div>
 					<div className="sidebar-scroll">
 						<div className="user-account d-flex ">
 							<div className="user_div">
-								<img src="../assets/images/user.png" className="user-photo" alt="User Profile" />
+								<img src={user} className="user-photo" alt="User Profile" />
 							</div>
 							<div className="dropdown">
 								<span>Welcome,</span>

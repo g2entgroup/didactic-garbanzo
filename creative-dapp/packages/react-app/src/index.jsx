@@ -1,5 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { Provider } from 'react-redux'
+import configureStore from './store';
 import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
 import "./index.css";
 import App from "./App";
@@ -13,7 +15,9 @@ const client = new ApolloClient({
 
 ReactDOM.render(
   <ApolloProvider client={client}>
+    <Provider store={configureStore()}>
     <App subgraphUri={subgraphUri}/>
+    </Provider>
   </ApolloProvider>,
   document.getElementById("root"),
 );

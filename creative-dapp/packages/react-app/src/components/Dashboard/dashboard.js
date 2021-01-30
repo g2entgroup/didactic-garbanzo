@@ -4,6 +4,14 @@ import Spark1 from '../common/apexChart/spark1'
 import Spark2 from '../common/apexChart/spark2';
 import Spark3 from '../common/apexChart/spark3';
 import Spark7 from '../common/apexChart/spark7';
+import BTC from '../../assets/images/coin/BTC.svg';
+import ETH from '../../assets/images/coin/ETH.svg';
+import DASH from '../../assets/images/coin/DASH.svg';
+import BTG from '../../assets/images/coin/BTG.svg';
+import LTC from '../../assets/images/coin/LTC.svg';
+import stellar from '../../assets/images/coin/stellar.svg';
+import XRP from '../../assets/images/coin/XRP.svg';
+import logo from '../../assets/images/creative-icon-header.png';
 
 const Dashboard = () => {
     return (
@@ -12,17 +20,16 @@ const Dashboard = () => {
                 <div className="block-header">
                     <div className="row clearfix">
                         <div className="col-md-6 col-sm-12">
-                            <h1>Cryptocurrency</h1>
+                            <h1>Creative Dashboard</h1>
                             <nav aria-label="breadcrumb">
                                 <ol className="breadcrumb">
                                     <li className="breadcrumb-item"><Link to="/">Creative Platform</Link></li>
-                                    <li className="breadcrumb-item active" aria-current="page">Cryptocurrency</li>
+                                    <li className="breadcrumb-item active" aria-current="page">Creator Dashboard</li>
                                 </ol>
                             </nav>
                         </div>
                         <div className="col-md-6 col-sm-12 text-right hidden-xs">
                             <a href="/" className="btn btn-sm btn-primary" title="">Create Campaign</a>
-                            <a href="/" className="btn btn-sm btn-success" title="Button"><i className="icon-basket"></i> Button</a>
                         </div>
                     </div>
                 </div>
@@ -52,12 +59,6 @@ const Dashboard = () => {
                                     <div id="apexspark1">
                                         <Spark1 />
                                     </div>
-                                    <div className="row clearfix">
-                                        <div className="col text-right">
-                                            {/* Action button */}
-                                            <button type="button" className="btn btn-sm btn-outline-secondary"><span>Deposit</span></button>
-                                        </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -87,12 +88,6 @@ const Dashboard = () => {
                                     <div id="apexspark2">
                                         <Spark2 />
                                     </div>
-                                    <div className="row clearfix">
-                                        <div className="col text-right">
-                                            {/* Action button */}
-                                            <button type="button" className="btn btn-sm btn-outline-secondary"><span>Deposit</span></button>
-                                        </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -122,12 +117,6 @@ const Dashboard = () => {
                                     <div id="apexspark3">
                                         <Spark3 />
                                     </div>
-                                    <div className="row clearfix">
-                                        <div className="col text-right">
-                                            {/* Action button */}
-                                            <button type="button" className="btn btn-sm btn-outline-secondary"><span>Deposit</span></button>
-                                        </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -157,12 +146,6 @@ const Dashboard = () => {
                                     <div id="apexspark7">
                                         <Spark7 />
                                     </div>
-                                    <div className="row clearfix">
-                                        <div className="col text-right">
-                                            {/* Action button */}
-                                            <button type="button" className="btn btn-sm btn-outline-secondary"><span>Deposit</span></button>
-                                        </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -177,24 +160,25 @@ const Dashboard = () => {
                                 <div className="row">
                                     <div className="col-lg-2 col-md-4 col-sm-6">
                                         <div className="form-group">
-                                            <label className="form-label">ICO Token</label>
+                                            <label className="form-label">CRTV Tokens</label>
                                             <input type="email" className="form-control" placeholder="23097" />
                                         </div>
                                     </div>
                                     <div className="col-lg-2 col-md-4 col-sm-6">
                                         <div className="form-group">
-                                            <label className="form-label">ETH</label>
-                                            <input type="email" className="form-control" placeholder="2" />
+                                            <label className="form-label">Amount</label>
+                                            <input type="number" className="form-control" min="0" placeholder="2" />
                                         </div>
                                     </div>
                                     <div className="col-lg-2 col-md-4">
                                         <div className="form-group">
-                                            <label className="form-label">Select</label>
+                                            <label className="form-label">💱 Swap</label>
                                             <select className="custom-select">
-                                                <option defaultValue="">ETH</option>
-                                                <option defaultValue="1">BTC</option>
-                                                <option defaultValue="2">LTC</option>
-                                                <option defaultValue="3">USDT</option>
+                                                <option defaultValue="1">AAVE</option>
+                                                <option defaultValue="2">DAI</option>
+                                                <option defaultValue="5">GHST</option>
+                                                <option defaultValue="3">USDA</option>
+                                                <option defaultValue="4">WETH</option>
                                             </select>
                                         </div>
                                     </div>
@@ -225,37 +209,37 @@ const Dashboard = () => {
                             <table className="table table-hover table-custom spacing5 m-t--5 mb-0">
                                 <tbody>
                                     <tr>
-                                        <td className="font-weight-bold">BTC</td>
+                                        <td className="font-weight-bold"><img src={BTC} alt="BTC"/> BTC</td>
                                         <td className="text-right">50000.098140 <span className="text-success">(0.25%) <i className="fa fa-caret-up"></i></span>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td className="font-weight-bold">ETH</td>
+                                        <td className="font-weight-bold"><img src={ETH} alt="ETH"/> ETH</td>
                                         <td className="text-right">1956.3 <span className="text-danger">(-0.15%) <i className="fa fa-caret-down"></i></span>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td className="font-weight-bold">CRTV</td>
+                                        <td className="font-weight-bold"><img src={logo} alt="CRTV"/> CRTV</td>
                                         <td className="text-right">89.74 <span className="text-success">(0.85%) <i className="fa fa-caret-up"></i></span>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td className="font-weight-bold">AAVE</td>
+                                        <td className="font-weight-bold"><img src={LTC} alt="LTC"/> AAVE</td>
                                         <td className="text-right">210.04 <span className="text-success">(0.65%) <i className="fa fa-caret-up"></i></span>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td className="font-weight-bold">MATIC</td>
+                                        <td className="font-weight-bold"><img src={stellar} alt="XLM"/> MATIC</td>
                                         <td className="text-right">110.04 <span className="text-success">(0.65%) <i className="fa fa-caret-up"></i></span>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td className="font-weight-bold">GRT</td>
+                                        <td className="font-weight-bold"><img src={DASH} alt="DASH"/> GRT</td>
                                         <td className="text-right">28.47 <span className="text-danger">(-0.42%) <i className="fa fa-caret-down"></i></span>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td className="font-weight-bold">GHST</td>
+                                        <td className="font-weight-bold"><img src={BTG} alt="BTG"/> GHST</td>
                                         <td className="text-right">18.75 <span className="text-danger">(-0.63%) <i className="fa fa-caret-down"></i></span>
                                         </td>
                                     </tr>

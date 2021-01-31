@@ -209,7 +209,7 @@ const Dashboard = () => {
                 </div>
 
                 <div className="row clearfix">
-                    <div className="col-lg-4 col-md-4 col-sm-12">
+                    <div className="col-lg-4 col-md-6 col-sm-12">
                         <div className="card">
                             <div className="header">
                                 <h1>🔍 My Watchlist </h1>
@@ -255,7 +255,7 @@ const Dashboard = () => {
                             </table>
                         </div>
                     </div>
-                    <div className="col-lg-8 col-md-8 col-sm-12">
+                    <div className="col-lg-8 col-md-6 col-sm-12">
                         <div className="card">
                             <div className="header">
                                 <h1>💰 Revenue</h1>

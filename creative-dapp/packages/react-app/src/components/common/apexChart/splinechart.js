@@ -28,10 +28,10 @@ class Splinechart extends Component {
                 dataLabels: {
                     enabled: false
                 },
-                colors: ['#17C2D7', '#9367B4', '#9367B4'],
+                colors: ['#17C2D7', '#9367B4', '#E50068'],
                 markers: {
                     size: 3,
-                    strokeColor: ['#17C2D7', '#9367B4', '#9367B4'],
+                    strokeColor: ['#17C2D7', '#9367B4', '#E50068'],
                   },
                 stroke: {
                     width: 2,

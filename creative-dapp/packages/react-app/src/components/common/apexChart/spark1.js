@@ -17,7 +17,7 @@ class Spark1 extends Component {
                 stroke: {
                     width: 2
                 },
-                colors: ['#DCE6EC'],
+                colors: ['#295ca3'],
                 title: {
                     text: '$424,652.45',
                     offsetX: 0,

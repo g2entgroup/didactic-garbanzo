@@ -10,8 +10,8 @@ import ETH from '../../assets/images/coin/ETH.svg';
 import DASH from '../../assets/images/coin/DASH.svg';
 import BTG from '../../assets/images/coin/BTG.svg';
 import LTC from '../../assets/images/coin/LTC.svg';
-import stellar from '../../assets/images/coin/stellar.svg';
-import logo from '../../assets/images/creative-icon-header.png';
+import XLM from '../../assets/images/coin/stellar.svg';
+import CRTV from '../../assets/images/coin/CRTV.png';
 import avatar1 from '../../assets/images/xs/avatar1.jpg';
 import avatar2 from '../../assets/images/xs/avatar2.jpg';
 import avatar3 from '../../assets/images/xs/avatar3.jpg';
@@ -209,7 +209,7 @@ const Dashboard = () => {
                 </div>
 
                 <div className="row clearfix">
-                    <div className="col-lg-4 col-md-4 col-sm-12">
+                    <div className="col-lg-4 col-md-6 col-sm-12">
                         <div className="card">
                             <div className="header">
                                 <h1>🔍 My Watchlist </h1>
@@ -227,7 +227,7 @@ const Dashboard = () => {
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td className="font-weight-bold"><img src={logo} alt="CRTV"/> CRTV</td>
+                                        <td className="font-weight-bold"><img src={CRTV} alt="CRTV"/> CRTV</td>
                                         <td className="text-right">89.74 <span className="text-success">(0.85%) <i className="fa fa-caret-up"></i></span>
                                         </td>
                                     </tr>
@@ -237,7 +237,7 @@ const Dashboard = () => {
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td className="font-weight-bold"><img src={stellar} alt="XLM"/> MATIC</td>
+                                        <td className="font-weight-bold"><img src={XLM} alt="XLM"/> MATIC</td>
                                         <td className="text-right">110.04 <span className="text-success">(0.65%) <i className="fa fa-caret-up"></i></span>
                                         </td>
                                     </tr>
@@ -255,7 +255,7 @@ const Dashboard = () => {
                             </table>
                         </div>
                     </div>
-                    <div className="col-lg-8 col-md-8 col-sm-12">
+                    <div className="col-lg-8 col-md-6 col-sm-12">
                         <div className="card">
                             <div className="header">
                                 <h1>💰 Revenue</h1>
@@ -300,7 +300,7 @@ const Dashboard = () => {
                                                     <td><span>11:20AM 17 Nov 2018</span></td>
                                                     <td><span>OX874JKHJKFG76767DFD67</span></td>
                                                     <td><span className="badge badge-success">Completed</span></td>
-                                                    <td><strong>0.108762 BTC</strong></td>
+                                                    <td><strong>0.108762 CRTV</strong></td>
                                                     <td className="w100 text-info"><strong>$8,309</strong></td>
                                                     <td><button type="button" className="btn btn-default btn-sm mb-0"><span>View</span></button></td>
                                                 </tr>
@@ -310,7 +310,7 @@ const Dashboard = () => {
                                                     <td><span>11:20AM 17 Nov 2018</span></td>
                                                     <td><span>OX874JKHJKFG76767DFD67</span></td>
                                                     <td><span className="badge badge-warning">Processing</span></td>
-                                                    <td><strong>0.108762 ETC</strong></td>
+                                                    <td><strong>0.108762 CRTV</strong></td>
                                                     <td className="w100 text-info"><strong>$8,309</strong></td>
                                                     <td><button type="button" className="btn btn-default btn-sm mb-0"><span>View</span></button></td>
                                                 </tr>
@@ -320,7 +320,7 @@ const Dashboard = () => {
                                                     <td><span>11:20AM 17 Nov 2018</span></td>
                                                     <td><span>OX874JKHJKFG76767DFD67</span></td>
                                                     <td><span className="badge badge-success">Completed</span></td>
-                                                    <td><strong>0.108762 ETH</strong></td>
+                                                    <td><strong>0.108762 CRTV</strong></td>
                                                     <td className="w100 text-info"><strong>$11,309</strong></td>
                                                     <td><button type="button" className="btn btn-default btn-sm mb-0"><span>View</span></button></td>
                                                 </tr>
@@ -330,7 +330,7 @@ const Dashboard = () => {
                                                     <td><span>12:20PM 5 Nov 2018</span></td>
                                                     <td><span>OX874JKHJKFG76767DFD67</span></td>
                                                     <td><span className="badge badge-success">Completed</span></td>
-                                                    <td><strong>0.108762 NEO</strong></td>
+                                                    <td><strong>0.108762 CRTV</strong></td>
                                                     <td className="w100 text-info"><strong>$3,102</strong></td>
                                                     <td><button type="button" className="btn btn-default btn-sm mb-0"><span>View</span></button></td>
                                                 </tr>
@@ -340,7 +340,7 @@ const Dashboard = () => {
                                                     <td><span>11:20AM 7 Nov 2018</span></td>
                                                     <td><span>OX874JKHJKFG76767DFD67</span></td>
                                                     <td><span className="badge badge-danger">Stopped</span></td>
-                                                    <td><strong>0.108762 LTC</strong></td>
+                                                    <td><strong>0.108762 CRTV</strong></td>
                                                     <td className="w100 text-info"><strong>$8,309</strong></td>
                                                     <td><button type="button" className="btn btn-default btn-sm mb-0"><span>View</span></button></td>
                                                 </tr>
@@ -350,7 +350,7 @@ const Dashboard = () => {
                                                     <td><span>12:20PM 5 Nov 2018</span></td>
                                                     <td><span>OX874JKHJKFG76767DFD67</span></td>
                                                     <td><span className="badge badge-success">Completed</span></td>
-                                                    <td><strong>0.108762 QTUM</strong></td>
+                                                    <td><strong>0.108762 CRTV</strong></td>
                                                     <td className="w100 text-info"><strong>$3,102</strong></td>
                                                     <td><button type="button" className="btn btn-default btn-sm mb-0"><span>View</span></button></td>
                                                 </tr>
@@ -360,7 +360,7 @@ const Dashboard = () => {
                                                     <td><span>12:20PM 5 Nov 2018</span></td>
                                                     <td><span>OX874JKHJKFG76767DFD67</span></td>
                                                     <td><span className="badge badge-success">Completed</span></td>
-                                                    <td><strong>0.108762 USDT</strong></td>
+                                                    <td><strong>0.108762 CRTV</strong></td>
                                                     <td className="w100 text-info"><strong>$102</strong></td>
                                                     <td><button type="button" className="btn btn-default btn-sm mb-0"><span>View</span></button></td>
                                                 </tr>

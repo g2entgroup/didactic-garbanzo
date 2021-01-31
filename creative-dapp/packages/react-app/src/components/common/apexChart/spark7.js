@@ -17,7 +17,7 @@ class Spark7 extends Component {
                 stroke: {
                     width: 2
                 },
-                colors: ['#6435c9'],
+                colors: ['#ffffff'],
                 xaxis: {
                     crosshairs: {
                         width: 1

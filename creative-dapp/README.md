@@ -4,6 +4,18 @@
 
 ---
 
+## Optional Installs:
+
+> Grunt
+
+```bash
+
+npm install -g grunt-cli
+
+```
+
+
+
 ## quickstart
 
 
@@ -19,11 +31,15 @@ yarn install
 
 ```
 
+> Terminal 1
+
 ```bash
 
-grunt watch
+yarn grunt
 
 ```
+
+> Terminal 2
 
 ```bash
 
@@ -31,7 +47,7 @@ yarn start
 
 ```
 
-> in a second terminal window:
+> 3rd terminal window:
 
 ```bash
 
@@ -39,7 +55,7 @@ yarn chain
 
 ```
 
-> in a third terminal window:
+> in a 4th terminal window:
 
 ```bash
 

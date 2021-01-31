@@ -1,3 +1,4 @@
+// "SPDX-License-Identifier: MIT"
 pragma solidity >=0.6.0 <0.7.0;
 
 import "hardhat/console.sol";
@@ -5,6 +6,6 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol"; //https://github.com/Ope
 
 contract CrtvTokenContract is ERC20 {
   constructor() ERC20("Creative Token","CRTV") public {
-      _mint(msg.sender, 980 * 10 ** uint(decimals()));
+      _mint(msg.sender, 980000000 * 10 ** uint(decimals()));
   }
 }

@@ -1,7 +1,7 @@
 // "SPDX-License-Identifier: MIT"
 pragma solidity >=0.6.0 <0.7.0;
 
-import "https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/master/contracts/token/ERC20/IERC20.sol";
+import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
 contract VendorContract {
 

@@ -37,7 +37,8 @@ const Dashboard = () => {
                             </nav>
                         </div>
                         <div className="col-md-6 col-sm-12 text-right hidden-xs">
-                            <a href="/" className="btn btn-sm btn-primary" title="">Create Campaign</a>
+                            <a href="/" className="btn btn-sm btn-primary mr-2" title=""><i className="icon-plus"></i> Create Campaign</a>
+                            <a href="/" className="btn btn-sm btn-secondary mr-2" title=""><i className="icon-cloud-upload"></i> Upload Content</a>
                         </div>
                     </div>
                 </div>
@@ -45,6 +46,7 @@ const Dashboard = () => {
                 <div className="row clearfix">
                     <div className="col-12">
                         <form className="card" action="" method="post">
+                            <div className="header"><h1>🏧 Vending Machine</h1></div>
                             <div className="body">
                                 <div className="row">
                                     <div className="col-lg-2 col-md-4 col-sm-6">
@@ -79,7 +81,7 @@ const Dashboard = () => {
                                     </div>
                                     <div className="col-lg-3 col-md-12">
                                             <label className="form-label">&nbsp;</label>
-                                            <button type="submit" className="btn btn-success btn-block">💱 SWAP NOW</button>
+                                            <button type="submit" className="btn btn-success btn-block"><i className="icon-wallet"></i> Swap Now</button>
                                         </div>
                                     </div>
                                 </div>

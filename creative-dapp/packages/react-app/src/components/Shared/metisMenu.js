@@ -62,11 +62,11 @@ const metisMenu = [
 		"icon": "icon-book-open",
 		"label": "SubGraph",
 		"to": "/subgraph",
-	},
-	{
-		"id": 'app',
-		"label": "App"
-	},
+	}
+	// {
+	// 	"id": 'app',
+	// 	"label": "App"
+	// },
 	// {
 	// 	"id": 12,
 	// 	"icon": "icon-book-open",

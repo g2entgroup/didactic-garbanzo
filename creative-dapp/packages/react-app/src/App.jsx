@@ -197,7 +197,7 @@ function App(props) {
               blockExplorer={blockExplorer}
             />
             <Contract
-              name="Staking"
+              name="⛏ Staking"
               customContract={kovanGovernance}
               signer={userProvider.getSigner()}
               provider={localProvider}
